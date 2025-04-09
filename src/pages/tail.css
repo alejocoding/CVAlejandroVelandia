@@ -1,0 +1,284 @@
+@import "tailwindcss";
+
+*{
+  transition: 5s;
+  scroll-behavior: smooth;
+}
+.color{
+    background-color:#0A0D0D ;
+}
+
+/*seccion content*/
+
+.content{
+    height: 50vh;
+    background-color: black;
+    position: relative;
+}
+
+.over{
+    overflow-x: auto;
+}
+
+.img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow-y: auto;
+    overflow-x: auto;
+}
+
+
+.name{
+  
+    position: absolute;
+    color:white;
+    z-index: 1;
+    font-size: 30px;
+    top: 22%;
+    left: 210px;
+   
+    color: #fff;
+  text-shadow: 
+    0 0 0px #0ff,
+    0 0 2px #0ff,
+    0 0 8px #0ff,
+    0 0 0px #0ff;
+    ;
+}
+
+.first{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+ 
+
+}
+
+.second{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-weight: 900;
+    font-size: 90px;
+    margin-top: -30px;
+   
+}
+
+
+.third{
+  color: antiquewhite;   
+  letter-spacing: 10px; 
+ 
+}
+
+/* about section  */
+
+
+.about{
+    height: 100vh;
+    background-color: #0A0D0D;
+    display: flex;
+
+}
+.about_habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: auto;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .about-me, .skills-section {
+    flex: 1 1 400px;
+    height: 406px;
+    padding: 1rem;
+    background-color: #111414;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00FFFF11;
+  }
+  
+  .about-me h2, .skills-section h2 {
+    color: #00FFFF;
+    margin-bottom: 1rem;
+    text-shadow: 0 0 10px #00FFFF88;
+  }
+  
+  .about-me p {
+    line-height: 1.6;
+    color: #ccc;
+}  
+
+.skills-section {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  
+  
+  .skillsContenedor {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+    background: #1A1F1F;
+    border: 1px solid #00FFFF33;
+    color: #00FFFF;
+    padding: 6px 12px;
+
+    font-size: 14px;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 5px #00FFFF22;
+    cursor: default;
+  }
+  
+  .skill:hover {
+    background-color: #00FFFF22;
+    box-shadow: 0 0 12px #00FFFFAA;
+    transform: scale(1.1);
+  }
+
+  /* seccion de las cartas */
+
+  .proyectos {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .titulo {
+    color: #00FFFF;
+    margin-bottom: 2rem;
+    font-size: 40px;
+    text-shadow: 0 0 10px #00FFFF88;
+  }
+  
+  .slider {
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    max-width: 1000px;
+    margin: auto;
+  }
+  
+  .contenedor {
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .carta {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    width: 280px;
+    justify-items: center;
+    background: #111414;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 0 10px #00FFFF22;
+    border: 1px solid #00FFFF33;
+    transition: transform 0.3s ease;
+    color: white;
+    font-family: monospace;
+  }
+
+  .carta>*{
+    padding: 5px;
+  }
+  
+  .carta:hover {
+    transform: scale(0.9);
+    box-shadow: 0 0 15px #00FFFF66;
+  }
+  
+  /* Opcional: ocultar scrollbar */
+  .slider::-webkit-scrollbar {
+    display: none;
+  }
+  .slider {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* seccion de los proyectos */
+
+  
+.proyects{
+    height: 100vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    position: relative;
+}
+
+.proyects i{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+  font-size: 50px;
+  color: white;
+z-index: 4;
+}
+
+/* Seccion de contactame */
+
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    background-color: #0A0D0D;
+}
+
+.contactCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 20px;
+    height: 406px;
+    padding: 2rem;
+    background-color: #111414;
+    border-radius: 12px;
+    box-shadow: 0 0 15px #00FFFF11;
+    color: #00FFFF;
+    border: 1px solid #00FFFF33;
+    margin-left: -100px;
+    font-family: monospace;
+}
+
+.Nombre {
+    font-size:50px;
+}
+
+
+/* ANIMACIONES */
+
+
+@layer utilities {
+  @keyframes pop-in {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .animate-pop-in {
+    animation: pop-in 0.5s ease-out forwards;
+  }
+}
