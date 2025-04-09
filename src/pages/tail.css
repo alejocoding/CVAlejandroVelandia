@@ -288,3 +288,59 @@ z-index: 4;
     animation: pop-in 0.5s ease-out forwards;
   }
 }
+
+
+/* media querys */
+
+@media (max-width: 768px) {
+
+  .barrita_oculta{
+    display: none;
+    
+  }
+
+   .about{
+    height: max-content;
+    padding-bottom: 100px;
+   }
+  
+   .skill {
+    width: 83px;
+    height: 83px;
+   }
+   .first{
+    font-size: 40px;
+   }
+   .second{
+    font-size: 60px;
+   }
+   .name{
+    left: 20px;
+   }
+
+   .slider{
+    max-width: 350px;
+    padding-bottom: 15px;
+   }
+
+   .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+   .Nombre{
+    font-size: 20px;
+   }
+
+   .personal{
+    width: 320px;
+    height: 320px;
+    padding: 10px 0 10px 0;
+   }
+
+   .contactCard{
+    margin-left: 0;
+   }
+}
