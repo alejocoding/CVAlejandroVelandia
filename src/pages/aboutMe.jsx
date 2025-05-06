@@ -10,7 +10,7 @@ export function About() {
                 </div>
 
                 <div className="max-w-2xl ">
-                    <h1 className="font-bold text-3xl sm:text-xl md:text-7xl  gradient-text text-start mb-5 typing-effect">Alejandro Velandia </h1>
+                    <h1 className="font-bold text-3xl sm:text-xl md:text-7xl  gradient-text text-start mb-5 typing-effect py-2">Alejandro Velandia </h1>
 
                     <p className="text-xl leading-relaxed mb-5">Desarrollador en formación, enfocado en crear soluciones web prácticas
                         y funcionales. Apasionado por transformar ideas en sistemas útiles,
