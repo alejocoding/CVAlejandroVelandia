@@ -37,7 +37,7 @@ export default function MobileNav() {
                         </a>
                     ))}
                     <a
-                        href="/hoja_vida.pdf"
+                        href="/HOJA_VIDA_ALEJANDRO_VELANDIA_MACHADO.pdf"
                         target="_blank"
                         rel="noreferrer"
                         className="flex items-center gap-2 border border-purple-500 rounded-lg px-3 py-2 mt-2 hover:bg-purple-700/20 transition"

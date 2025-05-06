@@ -24,7 +24,7 @@ export function Footer() {
                             <li><span className="font-semibold">Tel:</span> <a href="tel:+573142822521" className="hover:text-purple-300 transition">+57 314 2822521</a></li>
                             <li><span className="font-semibold">Email:</span> <a href="alejoreyvm@hotmail.com" className="hover:text-purple-300 transition">alejoreyvm@hotmail</a></li>
                             <li>
-                                <a href="/hoja_vida.pdf" target="_blank" rel="noreferrer" className="flex gap-2 items-center">
+                                <a href="/HOJA_VIDA_ALEJANDRO_VELANDIA_MACHADO.pdf" target="_blank" rel="noreferrer" className="flex gap-2 items-center">
                                     <i className="bi bi-file-earmark-person-fill text-purple-400"></i>
                                     <span className="font-medium">Hoja de vida</span>
                                 </a>

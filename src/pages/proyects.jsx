@@ -23,7 +23,7 @@ const projects = [
     },
     {
         title: "Sistema de Certificados",
-        description: "AutoChat adalah solusi otomatisasi untuk mengirim pesan ke saluran Discord secara terjadwal...",
+        description: "Cree un sistema de licencias, para gestionarlas y evitar el uso del software sin lincencia, cada persona cuenta con tokens y pueden gastarlos generando certificados.",
         imageUrl: Foto3,
         technologies: ["Boostrap", "JavaScript", "PHP", "MySQL"],
         gitHub: 'https://github.com/alejocoding/Alejandro_Velandia_licenciamiento',
@@ -39,7 +39,7 @@ export function Proyecto() {
                 Proyectos
             </h1>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl mx-auto justify-items-center items-center">
                 {projects.map((project, idx) => (
                     <ProjectCard key={idx} {...project} />
                 ))}

@@ -29,7 +29,7 @@ export function Nav() {
       
           {/* Botón CV */}
           <div className="relative flex items-center border border-purple-400/70 py-2 px-4 rounded-xl bg-black/30 text-white/90 hover:bg-purple-700/20 backdrop-blur-xl transition duration-300 hover:scale-105">
-            <a  href="/hoja_vida.pdf" target="_blank" rel="noreferrer" className="flex gap-2 items-center" >
+            <a  href="/HOJA_VIDA_ALEJANDRO_VELANDIA_MACHADO.pdf" target="_blank" rel="noreferrer" className="flex gap-2 items-center" >
               <i className="bi bi-file-earmark-person-fill text-purple-400"></i>
               <span className="font-medium">Hoja CV</span>
             </a>
