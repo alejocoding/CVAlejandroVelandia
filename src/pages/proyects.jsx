@@ -1,38 +1,55 @@
+import React from 'react';
+import ProjectCard from '../elements/carta';
+import Foto1 from '../assets/sfr.png';
+import Foto2 from '../assets/15.png';
+import Foto3 from '../assets/16.png';
+import { Buttons } from '../elements/button';
+const projects = [
+    {
+        title: "Sena fast Register",
+        description: "El proyecto es un software para gestionar el ingreso y salida de vehículos y objetos al SENA, registrando fechas, horarios y generando informes para asegurar un control eficiente y seguro.",
+        imageUrl: Foto1,
+        technologies: ["Tailwind", "JavaScript", "PHP", "MySQL"],
+        gitHub:'https://github.com/Brandonvilla10/SFR',
+    },
+    {
+        title: "Free fire Javascript",
+        description: "Creé un juego con temática de *Free Fire* para aprender a usar `fetch`, funciones asíncronas y JavaScript. En él practico peticiones a datos externos, manejo de eventos y actualización dinámica del DOM, aplicando conceptos clave del desarrollo web moderno",
+        imageUrl: Foto2,
+        technologies: ["CSS", "JavaScript", "PHP", "MySQL"],
+        gitHub:'https://advancedproyectgame.online/index.php#home',
+        
+        
+        
+    },
+    {
+        title: "Sistema de Certificados",
+        description: "AutoChat adalah solusi otomatisasi untuk mengirim pesan ke saluran Discord secara terjadwal...",
+        imageUrl: Foto3,
+        technologies: ["Boostrap", "JavaScript", "PHP", "MySQL"],
+        gitHub:'https://github.com/alejocoding/Alejandro_Velandia_licenciamiento',
+        
+    },
+];
 
-import Card from '../elements/card'
-export function Proyects(){
+export function Proyecto() {
+    return (
 
-    return(
+        <div className="min-h-screen p-8 flex flex-col gap-6 justify-center" id='proyectos'>
 
-        <div className="proyects" id='proyects'>
+             <h1 className="text-center font-bold text-6xl leading-relaxed my-14 text-animation">
+                Proyectos
+            </h1>
 
-        <section class="proyectos opacity-0 animate-pop-in">
-
-            <h2 class="titulo opacity-0 animate-pop-in ">Some Proyects</h2>
-            <div class="slider">
-                <div class="contenedor">
-                    <Card text ="Game with asyncs fuctions"
-                    ruta="https://cdn-icons-png.flaticon.com/512/8293/8293566.png"
-                    data ="I've built a basic game using languages such as JS, HTML and CSS" />
-                    <Card text ="CRUD LARAVEl" 
-                    ruta="https://www.trustradius.com/product-logos/Bb/LB/TTLP9HL5PK83-180x180.JPEG"
-                    data ="I've built a CRUD en laravel, to learn de model MVC" />
-                    <Card text ="CSS Draw"
-                    ruta="https://niixer.com/wp-content/uploads/2024/02/HTML-CSS-Review.png"
-                    data ="i've built a draw with only css and html" />
-                    <Card text ="Landings pages" 
-                    ruta="https://conviertemas.com/wp-content/uploads/2018/11/landing-page-1024x581.jpg"
-                    data ="i've built a lot of landing pages, to see more check mi github" />
-                    <Card text ="SenaFast" 
-                    ruta ="https://cdn-icons-png.flaticon.com/512/4285/4285622.png"
-                    data ="I'm working in this proyect to solve a queue problematic that we have at the sena" />
-                </div>
+            <div className="min-h-screen p-8 flex flex-wrap gap-6 justify-center min-w-[310px]">
+                
+                {projects.map((project, idx) => (
+                    <ProjectCard key={idx} {...project} />
+                ))}
             </div>
 
-        </section>
-        
-        <a href="https://github.com/alejocoding"><i class="bi bi-github"></i> </a>
-
         </div>
-    )
-}
+    );
+};
+
+

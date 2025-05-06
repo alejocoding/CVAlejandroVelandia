@@ -1,21 +1,25 @@
 import "./pages/tail.css"
 import './App.css';
-import { Header } from './pages/header';
-import { Content } from './pages/content'
-import { About } from './pages/about';
-import { Proyects } from './pages/proyects';
-import { Contact } from './pages/contact_me';
+import { Nav } from "./pages/navBar";
+import { About } from "./pages/aboutMe";
+import { Habilities } from "./pages/habilities";
+import { Proyecto } from "./pages/proyects";
+import { Footer } from "./pages/footer";
+import ExtendAbout from "./pages/MoreAbout";
 
 function App() {
   return (
-    <div className="over">
-      <Header />
-      <Content />
-      <About />
-      <Proyects />
-      <Contact />
-
+    <div className=" bg-gradient-to-b from-white to-neutral-200 dark:from-neutral-900 dark:to-black h-fit">
+      <Nav />;
+      <div className="h-24"></div>
+      <About />;
+      <Habilities />
+      <ExtendAbout />
+      <Proyecto />
+      <Footer  />
     </div>
+
+
   );
 }
 
