@@ -4,7 +4,7 @@ export function Habilities() {
     return (
         <div className="flex flex-col items-center justify-center mb-56" >
                 <div id="habilidades"></div>
-            <h1 className="text-center font-bold text-6xl leading-relaxed my-14 text-animation">
+            <h1 className="text-center font-bold text-4xl sm:text-5xl md:text-6xl leading-relaxed my-10 text-animation">
                 Habilidades
             </h1>
 
