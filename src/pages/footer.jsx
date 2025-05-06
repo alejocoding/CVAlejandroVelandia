@@ -38,7 +38,7 @@ export function Footer() {
                         <h2 className="text-xl font-bold mb-4 text-purple-400">Redes Sociales</h2>
                         <ul className="space-y-2 text-gray-300">
                             <li><a href="https://github.com/alejocoding" target="_blank" className="hover:text-purple-300 transition">GitHub</a></li>
-                            <li><a href="https://www.linkedin.com/in/alejandro-velandia-machado-967836363/" target="_blank" className="hover:text-purple-300 transition">LinkedIn</a></li>
+                            <li><a href="https://www.linkedin.com/in/alejandro-velandia-machado-967836363/" target="_blank" className="hover:text-purple-300 transition" rel="noreferrer">LinkedIn</a></li>
                         </ul>
                     </div>
 
