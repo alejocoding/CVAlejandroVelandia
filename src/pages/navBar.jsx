@@ -5,7 +5,7 @@ export function Nav() {
         <div className="lg:h-24 fixed top-0 right-0 left-0 flex justify-center z-[900] animate-fade-down transition-all duration-500 ease-in-out">
         <nav className="container bg-neutral-800/70 backdrop-blur-xl mt-8 flex justify-between items-center max-w-[1150px] rounded-2xl border border-white/10 text-white px-4 shadow-lg shadow-purple-500/10 transition-all duration-300 ease-in-out hover:shadow-purple-500/20">
       
-          {/* Logo */}
+     
           <div className="text-xl font-bold tracking-wide text-purple-400 transition-transform hover:scale-105 duration-300">
             AVM
           </div>
