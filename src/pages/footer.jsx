@@ -24,7 +24,7 @@ export function Footer() {
                             <li><span className="font-semibold">Tel:</span> <a href="tel:+573142822521" className="hover:text-purple-300 transition">+57 314 2822521</a></li>
                             <li><span className="font-semibold">Email:</span> <a href="alejoreyvm@hotmail.com" className="hover:text-purple-300 transition">alejoreyvm@hotmail</a></li>
                             <li>
-                                <a href="/hoja_vida.pdf" target="_blank" className="flex gap-2 items-center">
+                                <a href="/hoja_vida.pdf" target="_blank" rel="noreferrer" className="flex gap-2 items-center">
                                     <i className="bi bi-file-earmark-person-fill text-purple-400"></i>
                                     <span className="font-medium">Hoja de vida</span>
                                 </a>
@@ -38,7 +38,7 @@ export function Footer() {
                         <h2 className="text-xl font-bold mb-4 text-purple-400">Redes Sociales</h2>
                         <ul className="space-y-2 text-gray-300">
                             <li><a href="https://github.com/alejocoding" target="_blank" className="hover:text-purple-300 transition">GitHub</a></li>
-                            <li><a href="https://www.linkedin.com/in/alejandro-velandia-machado-967836363/" target="_blank" className="hover:text-purple-300 transition" rel="noreferrer">LinkedIn</a></li>
+                            <li><a href="https://www.linkedin.com/in/alejandro-velandia-machado-967836363/" target="_blank" className="hover:text-purple-300 transition">LinkedIn</a></li>
                         </ul>
                     </div>
 

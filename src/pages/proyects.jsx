@@ -3,7 +3,6 @@ import ProjectCard from '../elements/carta';
 import Foto1 from '../assets/sfr.png';
 import Foto2 from '../assets/15.png';
 import Foto3 from '../assets/16.png';
-import { Buttons } from '../elements/button';
 const projects = [
     {
         title: "Sena fast Register",
