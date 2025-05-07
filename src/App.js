@@ -13,7 +13,7 @@ function App() {
     <div className=" bg-gradient-to-b from-white to-neutral-200 dark:from-neutral-900 dark:to-black h-fit">
       <Nav />;
       <MobileNav />;
-      <div className="h-24"></div>
+      <div className="h-10 md:h-24"></div>
       <About />;
       <Habilities />
       <ExtendAbout />
