@@ -1,3 +1,5 @@
+import Foto from "../assets/portafoleo.jpg"
+
 export function About() {
     return (
 
@@ -7,7 +9,7 @@ export function About() {
            
                 <div className="relative w-72 h-72 sm:w-60 sm:h-60 md:w-72 md:h-72">
                    
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaM6iV0HnZDY8rWlH_hPnqlLYoTKXCC68D0A&s" alt="" className="w-full h-full object-cover rounded-full" />
+                    <img src={Foto} alt="" className="w-full h-full object-cover rounded-full" />
                 </div>
 
                 <div className="max-w-2xl ">

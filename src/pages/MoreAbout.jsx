@@ -1,6 +1,6 @@
 import React from 'react';
 import Boton from '../elements/button';
-import FotoIa from '../assets/IMAGEN IA.png';
+import FotoIa from '../assets/normal.jpg';
 
 const ExtendAbout = () => {
   return (
@@ -27,7 +27,7 @@ const ExtendAbout = () => {
           <img
             src={FotoIa}
             alt="Mi foto"
-            className="rounded-xl w-64 h-64 object-cover shadow-md object-top "
+            className="rounded-xl w-64 h-64 object-cover shadow-md object-center "
           />
         </div>
         
