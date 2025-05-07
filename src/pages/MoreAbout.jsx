@@ -13,7 +13,7 @@ const ExtendAbout = () => {
         <div className="transition-opacity duration-100 opacity-0 animate-fade-in-delay">
           <h2 className="text-4xl font-bold text-gray-100 mb-6 ">Sobre mí</h2>
           <p className="text-gray-300 mb-4">
-            Soy un desarrollador en formación con interés en la creación de aplicaciones web interactivas. Actualmente estoy desarrollando un juego inspirado en Free Fire para practicar JavaScript, funciones asíncronas y consultas fetch.
+          Apasionado por la tecnología, con una fuerte orientación al aprendizaje continuo y al desarrollo de soluciones web interactivas. Me destaco por mi curiosidad, capacidad de análisis y compromiso con la mejora constante. Actualmente estoy trabajando en proyectos con React, lo que me ha permitido fortalecer mi lógica de programación y ampliar mis conocimientos en tecnologías modernas del desarrollo frontend y backend.
           </p>
           <p className="text-gray-300 flex gap-4">
 

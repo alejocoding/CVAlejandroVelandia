@@ -7,7 +7,7 @@ export function About() {
 
             <div className=" flex flex-col lg:flex-row  items-center gap-12  justify-center text-white/80 container max-w-[1150px]">
            
-                <div className="relative w-72 h-72 sm:w-60 sm:h-60 md:w-72 md:h-72">
+                <div className="relative w-72 h-72 sm:w-60 sm:h-60 md:w-72 md:h-72 rainbow-ring">
                    
                     <img src={Foto} alt="" className="w-full h-full object-cover rounded-full" />
                 </div>

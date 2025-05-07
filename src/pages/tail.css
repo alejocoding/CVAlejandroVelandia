@@ -138,3 +138,26 @@
     width: 0;
     animation: typing 2s steps(20, end) forwards, blinkCaret 0.75s step-end infinite;
   }
+
+  @keyframes subtle-glow {
+    0% {
+      box-shadow: 0 0 10px 0 rgba(168, 85, 247, 0.5),
+                  0 0 30px 0 rgba(236, 72, 153, 0.4),
+                  0 0 60px 0 rgba(59, 130, 246, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 20px 10px rgba(168, 85, 247, 0.3),
+                  0 0 40px 10px rgba(236, 72, 153, 0.25),
+                  0 0 70px 10px rgba(59, 130, 246, 0.2);
+    }
+    100% {
+      box-shadow: 0 0 10px 0 rgba(168, 85, 247, 0.5),
+                  0 0 30px 0 rgba(236, 72, 153, 0.4),
+                  0 0 60px 0 rgba(59, 130, 246, 0.3);
+    }
+  }
+  
+  .rainbow-ring {
+    animation: subtle-glow 6s ease-in-out infinite;
+    border-radius: 9999px;
+  }
