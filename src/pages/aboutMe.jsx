@@ -13,9 +13,9 @@ export function About() {
                 </div>
 
                 <div className="max-w-2xl ">
-                    <h1 className="font-bold text-3xl sm:text-4xl md:text-7xl  gradient-text text-start mb-5 typing-effect py-2">Alejandro Velandia </h1>
+                    <h1 className="font-bold text-3xl sm:text-5xl md:text-7xl  gradient-text text-start mb-5 typing-effect py-2 max-[500px]: px-3">Alejandro Velandia </h1>
                 
-                    <p className="text-xl leading-relaxed mb-5">Desarrollador full stack, enfocado en crear soluciones web prácticas
+                    <p className="text-xl leading-relaxed mb-5 text-left max-[600px]:text-xl text-center px-4">Desarrollador full stack, enfocado en crear soluciones web prácticas
                         y funcionales. Apasionado por transformar ideas en sistemas útiles,
                         con experiencia desde bases de datos hasta interfaces accesibles. Comprometido, analítico y en constante aprendizaje.</p>
                     <div className=" gap-2 md:flex gap-2 text-center mt-2">
