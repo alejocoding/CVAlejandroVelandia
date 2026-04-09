@@ -11,12 +11,12 @@ export function Habilities() {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-[1200px] relative z-10">
                 <Skill nombre={"HTML5"} ruta={"https://images.icon-icons.com/112/PNG/512/html5_18891.png"} />
                 <Skill nombre={"CSS3"} ruta={"https://img.icons8.com/?size=512&id=21278&format=png"} />
-                <Skill nombre={"JavaScript"} ruta={"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/640px-Unofficial_JavaScript_logo_2.svg.png"} />
+                <Skill nombre={"JavaScript"} ruta={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuHnJDLOcdm_0b6N6kNj-1OvO9KhKYgqIy0w&s"} />
                 <Skill nombre={"React"} ruta={"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/React.svg/1200px-React.svg.png"} />
                 <Skill nombre={"Laravel"} ruta={"https://avatars.githubusercontent.com/u/958072?s=280&v=4"} />
-                <Skill nombre={"PHP"} ruta={"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/640px-PHP-logo.svg.png"} />
+                <Skill nombre={"PHP"} ruta={"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/1280px-PHP-logo.svg.png"} />
                 <Skill nombre={"SQL"} ruta={"https://www.nexustech.je/media/yyaacx1w/sql-1.png"} />
-                <Skill nombre={"Tailwind"} ruta={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2560px-Tailwind_CSS_Logo.svg.png"} />
+                <Skill nombre={"Tailwind"} ruta={"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/1280px-Tailwind_CSS_Logo.svg.png"} />
                 <Skill nombre={"Bootstrap"} ruta={"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/1200px-Bootstrap_logo.svg.png"} />
                 <Skill nombre={"Python"} ruta={"https://149860134.v2.pressablecdn.com/wp-content/uploads/pythoned.png"} />
                 <Skill nombre={"Java"} ruta={"https://education.oracle.com/file/general/p-80-java.png"} />
@@ -25,6 +25,8 @@ export function Habilities() {
                 <Skill nombre={"Heidi SQL"} ruta={"https://upload.wikimedia.org/wikipedia/commons/3/32/HeidiSQL_logo_image.png"} />
                 <Skill nombre={"PostgreSQL"} ruta={"https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"} />
                 <Skill nombre={"Springboot"} ruta={"https://juanmanuellopezduran.wordpress.com/wp-content/uploads/2020/06/spring-boot-ok.png"} />
+                <Skill nombre={"C#"} ruta={"https://www.jetbrains.com/guide/assets/csharp-logo-265a149e.svg"} />
+                <Skill nombre={".NET"} ruta={"https://upload.wikimedia.org/wikipedia/commons/7/7d/Microsoft_.NET_logo.svg"} />
                 
             </div>
 
